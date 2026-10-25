@@ -29,4 +29,4 @@ st.write(input_data)
 # Predict button
 if st.button('Predict Sales'):
     prediction = model.predict(input_data)[0]
-    st.success(f'Predicted Sales: **${prediction:.2f}k**')
+    st.success(f'Predicted Sales: **${prediction:.2f}M**')
